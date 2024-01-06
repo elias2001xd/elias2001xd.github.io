@@ -1,0 +1,378 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1{ font-size: 3em;}
+h2{ font-size: 2em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.2em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+button{ 
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(black);
+    box-shadow: 2px 2px 10px rgb(black);
+    background-color: blueviolet;
+    color: white;
+}
+
+#hero button{
+    font-size: 2em;
+}
+button:hover{
+    background-color: rgb(53, 4, 101);
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    background-color: rgb(235, 231, 231);
+}
+header .logo{
+    margin: 0;
+    padding: 17px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+}
+header .container{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+#hero{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient( 0deg,
+    rgba(0, 0, 1, 0.094),
+    rgb(0,0,0.345))
+    ,url(imagenes/foto\ \(1\).webp);
+    color: rgb(248, 246, 248);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.color-acento{
+    color: blueviolet;
+}
+#somos-proya .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#nuestros-programas{
+    background-color: rgba(12, 4, 4, 0.911);
+    color: white;
+    text-align: center;
+}
+#nuestros-programas .container{
+    padding: 5px 30px;
+    background-color: rgba(10, 12, 12, 0.281);
+}
+#nuestros-programas h2{
+    margin-top: 20px;
+    font-size: 3em;
+}
+#nuestros-programas p{
+    display: none;
+}
+#nuestros-programas .carta{
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#nuestros-programas .carta2{
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient( 0deg,
+    rgba(0, 0, 1, 0.094),
+    rgba(0, 0, 0, 0.712)), url(imagenes/html.jpg);
+}
+.carta:nth-child(2){    background-image: linear-gradient( 0deg,
+    rgba(0, 0, 1, 0.034),
+    rgba(0, 0, 0, 0.658)), url(imagenes/css.jpg);}
+.carta:nth-child(3){
+    background-image: linear-gradient( 0deg,
+    rgba(0, 0, 1, 0.094),
+    rgb(0,0,0.345)), url(imagenes/js.png);
+}
+.carta2:first-child{
+    background-image: linear-gradient( 0deg,
+    rgba(0, 0, 1, 0.094),
+    rgba(0, 0, 0, 0.712)), url(imagenes/python.webp);
+}
+.carta2:nth-child(2){    background-image: linear-gradient( 0deg,
+    rgba(0, 0, 1, 0.034),
+    rgba(0, 0, 0, 0.658)), url(imagenes/reactjs3.png);}
+    .carta2:nth-child(3){    background-image: linear-gradient( 0deg,
+        rgba(0, 0, 1, 0.034),
+        rgba(0, 0, 0, 0.658)), url(imagenes/sql_and_mysql.jpg);}
+#caracteristicas .container{
+    text-align: center;
+    padding: 100px 12px;
+}
+#caracteristicas .container .button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 15px 30%;
+    width: 150px;
+    height: 70px;
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(44, 40, 40);
+    color: white;
+    height: 80vh;
+}
+#final h2{
+    font-size: 6vw;
+    margin-bottom: 10px;
+}
+#final button{
+    font-size: 5vw;
+}
+
+#comentario{
+    margin-bottom: 10px;
+}
+textarea{
+    font-size: 17px;
+    width: 80%;
+    height: 150px;
+}
+
+footer{
+    background-color: rgb(127, 130, 134);
+}
+footer p{
+    margin: 0;
+    padding: 13px;
+    color: rgb(55, 56, 56);
+}
+footer .container{
+    height: 100px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    text-align: end;
+}
+/* AJUSTE A PANTALLA PEQUEÑA */
+/* AJUSTE A PANTALLA PEQUEÑA */
+/* AJUSTE A PANTALLA PEQUEÑA */
+/* AJUSTE A PANTALLA PEQUEÑA */
+/* AJUSTE A PANTALLA PEQUEÑA */
+/* AJUSTE A PANTALLA PEQUEÑA */
+/* AJUSTE A PANTALLA PEQUEÑA */
+/* AJUSTE A PANTALLA PEQUEÑA */
+/* AJUSTE A PANTALLA PEQUEÑA */
+/* AJUSTE A PANTALLA PEQUEÑA */
+@media(min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    #hero h1{
+        font-size: 4em;
+    }
+    #somos-proya .container{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    #somos-proya .texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+    }
+    #somos-proya h2{
+        margin-top: 0px;
+    }
+    #somos-proya .img-container{
+        background-image: 
+        url(imagenes/foto.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 550px;
+    }
+    #nuestros-programas .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestros-programas p{
+        display: block;
+        margin-bottom: 30px;
+    }
+.carta:nth-child(3){
+    background-image: linear-gradient( 0deg,
+    rgba(0, 0, 1, 0.094),
+    rgb(0,0,0.345)), url(imagenes/javascript2.webp);
+}
+.carta2:first-child{
+    background-image: linear-gradient( 0deg,
+    rgba(0, 0, 1, 0.094),
+    rgba(0, 0, 0, 0.712)), url(imagenes/python2.webp);
+}
+#nuestro-programa h3{
+    margin-top: 0;
+}
+    #nuestros-programas .carta{
+        padding: 50px;
+    }
+    #nuestros-programas .carta2{
+        padding: 50px;
+    }
+#caracteristicas .container{
+     text-align: initial;
+     height: 800px;
+}
+#caracteristicas .container-button{
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;  
+    position: absolute;
+    margin-top: 0;
+}
+/* recientes en video de youtube */
+.button{
+    display: inline-flex;
+    padding: 0;
+    background-color: rgb(133, 3, 184);
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.button__text, .button__icon{
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 15px;
+    color: #fff;
+}
+.button__icon{
+    font-size: 1.5em;
+}
+.button__icon__paypal{
+    font-size: 1.5em;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 10px;
+    color: #fff;
+    height: 100%;
+}
+.button__icon__linkedin{
+    font-size: 1.5em;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 12px;
+    color: #fff;
+    height: 100%;
+}
+/* recientes en video de youtube */
+
+#caracteristicas .container-button button{
+    margin-top: 10px;
+}
+
+#caracteristicas{
+    background-image: url(imagenes/redes.png);
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+    background-position: calc(80vw - 400px) 100px;
+}
+#caracteristicas ul{
+    margin-left: 100px;
+}
+#caracteristicas ul{
+    margin: 100px;
+}
+
+#final h2{
+    font-size: 4em;
+}
+#final button{
+    font-size: 2em;
+}
+footer .container{
+    align-items: flex-end;
+}
+
+textarea{
+    font-size: 17px;
+    width: 40%;
+    height: 150px;
+}
+}
+
